@@ -1,10 +1,23 @@
 .botao{
-background-color: aqua;
+    padding: 5px;
+    background-color: rgb(255, 176, 87);
+    color: rgb(240, 248, 255);
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 10px;
+    transform: translate3d(5px);
+    box-shadow: 0 5px 0 rgb(136, 76, 7);
 }
+
+.botao:hover {
+  background-color: rgb(136, 76, 7);
+  border: 0;
+}
+
+
 
 #imagem{
     height: 100px;
-    width: 90px;
+    width: 80px;
 }
 
 #imagem2{
@@ -17,13 +30,15 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 10px;
-background-color: rgb(255, 176, 87);
+background-color: #ffb057;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: antiquewhite;
 }
 
 body{
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
 }
 
 .caixa{
@@ -32,4 +47,6 @@ body{
     background-color: antiquewhite;
     align-items: center;
     border-radius: 25px;
+    border: 5px solid rgb(255, 176, 87);
+    justify-content: center;
 }
