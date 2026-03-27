@@ -1,3 +1,35 @@
 .botao{
 background-color: aqua;
 }
+
+#imagem{
+    height: 100px;
+    width: 90px;
+}
+
+#imagem2{
+    height: 110px;
+    width: 90px;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+background-color: rgb(255, 176, 87);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: antiquewhite;
+}
+
+body{
+    background-color: bisque;
+}
+
+.caixa{
+    padding: 20px;
+    margin: 20px;
+    background-color: antiquewhite;
+    align-items: center;
+    border-radius: 25px;
+}
