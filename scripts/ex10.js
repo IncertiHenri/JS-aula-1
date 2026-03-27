@@ -1,4 +1,4 @@
-function folhaPagamento(){
+function folhaPagamento() {
     let salarioBruto = 0;
     let nome;
     let descontoINSS = 0;
@@ -7,8 +7,8 @@ function folhaPagamento(){
     nome = prompt("Insira seu nome: ");
     salarioBruto = parseFloat(prompt("Insira seu salário bruto"));
 
-    descontoINSS = salarioBruto*0.08;
-    salarioLiquido = salarioBruto-descontoINSS;
+    descontoINSS = salarioBruto * 0.08;
+    salarioLiquido = salarioBruto - descontoINSS;
 
     alert("Folha de pagamento\nFuncionário: " + nome + "\nSalario bruto: R$" + salarioBruto + "\nDesconto do INSS: R$" + descontoINSS + "\nSalário líquido: R$" + salarioLiquido);
 }

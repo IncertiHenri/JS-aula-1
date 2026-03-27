@@ -3,16 +3,16 @@ function ordenacaoValoresInteiros() {
 
     let base;
 
-    for(let i = 0; i < 4; i++){
+    for (let i = 0; i < 4; i++) {
         numeros[i] = prompt("Informe um valor para ordenação: ");
     }
 
-    for(let i = 0; i < 4; i++){
-        for(let j = 0; j < 4; j++){
-            if(numeros[j] < numeros[j+1]){
+    for (let i = 0; i < 4; i++) {
+        for (let j = 0; j < 4; j++) {
+            if (numeros[j] < numeros[j + 1]) {
                 base = numeros[j];
-                numeros[j] = numeros[j+1];
-                numeros[j+1] = base;
+                numeros[j] = numeros[j + 1];
+                numeros[j + 1] = base;
             }
         }
     }
